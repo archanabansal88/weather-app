@@ -1,0 +1,109 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 20px;
+	background: #e9ebee;
+	color: #1d2129;
+}
+
+.root {
+	width: 350px;
+	margin: 0 auto;
+	background-color: white;
+	border: 1px solid #c9c9c9;
+	min-height: 400px;
+	padding: 30px;
+	border-radius: 5px;
+}
+.weather-header {
+	text-align: center;
+	padding: 10px;
+	color: #ff6a00b3;
+}
+
+.location {
+	text-align: center;
+	font-size: 18px;
+}
+.current-location {
+	padding: 10px;
+}
+.degree {
+	cursor: pointer;
+}
+.temperature {
+	padding: 10px;
+}
+.temp-celcius,
+.temp-farenheit {
+	color: #ff5200d1;
+	font-weight: bold;
+}
+
+.location-name {
+	color: #ff5200d1;
+}
+.location-head {
+	color: #959090;
+}
+.hide {
+	display: none;
+}
+
+.search-container {
+	text-align: center;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.pincode-text {
+	padding: 10px;
+
+	width: 120px;
+}
+
+.auto-button {
+	padding: 10px 0 0 0;
+	margin-top: 15px;
+	text-align: left;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #c2bcbc85;
+	background: white;
+	cursor: pointer;
+	color: #958e8eb8;
+}
+
+.search-button {
+	padding: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	color: #958e8eb8;
+}
+
+.search-button,
+.pincode-text {
+	border: none;
+	border-radius: 4px;
+	outline: none;
+	background-color: white;
+	border: 1px solid #c2bcbc85;
+}
+
+.error-msg {
+	padding: 10px;
+	color: #f3824d;
+	border: 1px solid #c2bcbc;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	background-color: white;
+	width: 260px;
+	margin-left: 10px;
+}
