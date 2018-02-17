@@ -1,7 +1,7 @@
 var config = {
 	BASE_URL: 'https://fcc-weather-api.glitch.me/',
 	WEATHER_API: 'api/current',
-	SEARCH_URL: 'http://maps.googleapis.com/maps/api/geocode/json',
+	SEARCH_URL: 'https://maps.googleapis.com/maps/api/geocode/json',
 };
 
 var Utility = (function() {
