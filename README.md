@@ -13,3 +13,7 @@ This creates a great opportunity to practice object-oriented programming and API
 * user can push a button to toggle between Fahrenheit and Celsius.
 * user can type pincode to get the location and the current temperature of the location.
 
+## How to run the application Locally
+
+* clone/download the repository
+* open index.html on the browser
